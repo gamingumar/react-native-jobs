@@ -1,6 +1,6 @@
 {
   "name": "jobs",
-  "description": "An empty new project",
+  "description": "React Native Jobs Project",
   "slug": "jobs",
   "privacy": "public",
   "sdkVersion": "17.0.0",
@@ -17,9 +17,14 @@
   },
   "ios": {
     "supportsTablet": true,
-    "bundleIdentifier": "com.gamingumar.jobs",
+    "bundleIdentifier": "com.gamingumar.jobs"
   },
   "android": {
   	"package": "com.gamingumar.jobs",
+    "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyAZWo5bt2FROPrnJw6UV6ZFL62EXp0CPlo"
+      }
+    }
   }
 }

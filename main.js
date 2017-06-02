@@ -1,6 +1,6 @@
 import Expo, { Notifications } from 'expo';
 import React from 'react';
-import { StyleSheet, Text, View, Alert } from 'react-native';
+import { StyleSheet, View, Alert } from 'react-native';
 import { TabNavigator, StackNavigator } from 'react-navigation';
 
 import { Provider } from 'react-redux';
@@ -14,6 +14,9 @@ import MapScreen from './screens/MapScreen';
 import DeckScreen from './screens/DeckScreen';
 import SettingsScreen from './screens/SettingsScreen';
 import ReviewScreen from './screens/ReviewScreen';
+
+// Send Push notifications from here..
+// http://rallycoding.herokuapp.com/api/tokens
 
 class App extends React.Component {
     componentDidMount() {
